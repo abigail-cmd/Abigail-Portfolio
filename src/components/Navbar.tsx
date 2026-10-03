@@ -59,7 +59,7 @@ export default function Navbar() {
               className="rounded-full border border-[var(--foreground)] px-5 py-2.5 text-sm font-medium transition-all duration-200 hover:-translate-y-0.5 hover:border-[var(--muted)] hover:bg-[var(--card)] hover:shadow-sm"
             >
               {/* Let&apos;s connect ↗ */}
-              Let&apos;s connect <span className="arrow-text">↗</span>
+             Let&apos;s connect ↗︎
             </Link>
           </div>
 
@@ -109,7 +109,8 @@ export default function Navbar() {
                 className="mt-3 rounded-full border border-[var(--foreground)] px-5 py-3 text-center text-sm font-medium"
               >
                 {/* Let&apos;s connect ↗ */}
-                Let&apos;s connect <span className="arrow-text">↗</span>
+                Let&apos;s connect ↗︎
+              
               </Link>
               
             </div>
@@ -173,7 +174,7 @@ export default function Navbar() {
 //           href="/contact"
 //           className="rounded-full border border-[var(--foreground)] px-5 py-2.5 text-sm font-medium transition-all duration-200 hover:-translate-y-0.5 hover:border-[var(--muted)] hover:bg-[var(--card)] hover:shadow-sm"
 //         >
-//           Let&apos;s connect ↗
+//           
 //         </Link>
 //       </nav>
 //     </header>
