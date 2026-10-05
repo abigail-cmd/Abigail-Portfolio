@@ -32,7 +32,7 @@ export default function Home() {
               href="/work"
               className="rounded-full border border-[var(--foreground)] bg-[var(--card)] px-6 py-3 text-sm font-medium text-[var(--foreground)] transition-all duration-200 hover:-translate-y-0.5 hover:border-[var(--accent)] hover:shadow-md"
             >
-              View selected work ↗
+              View selected work → 
             </Link>
 
             <Link

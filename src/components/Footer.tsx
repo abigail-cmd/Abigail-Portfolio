@@ -43,7 +43,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="transition-colors hover:text-[var(--foreground)]"
           >
-            GitHub ↗
+            GitHub 
           </a>
 
           <a
@@ -52,7 +52,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             className="transition-colors hover:text-[var(--foreground)]"
           >
-            LinkedIn ↗
+            LinkedIn 
           </a>
         </div>
 
