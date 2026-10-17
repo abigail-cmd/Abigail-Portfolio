@@ -312,7 +312,7 @@ export default function Home() {
               >
                 Get in touch
                 <span className="transition-transform duration-200 group-hover:translate-x-1">
-                  ↗
+                  
                 </span>
               </Link>
             </div>

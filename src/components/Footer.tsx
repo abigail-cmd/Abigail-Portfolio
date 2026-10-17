@@ -1,5 +1,6 @@
 
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -37,14 +38,16 @@ export default function Footer() {
             Contact
           </Link>
 
-          <a
+
+
+           <a
             href="https://github.com/abigail-cmd"
             target="_blank"
             rel="noopener noreferrer"
             className="transition-colors hover:text-[var(--foreground)]"
           >
             GitHub 
-          </a>
+          </a> 
 
           <a
             href="https://www.linkedin.com/in/abigail-elaho-0595492ab/?isSelfProfile=true"
