@@ -113,7 +113,7 @@ export default function AboutPage() {
                 Right now
               </p>
 
-              <span className="text-2xl text-[var(--primary)]">↗</span>
+              <span className="text-2xl text-[var(--primary)]"></span>
             </div>
 
             <div className="mt-16">
@@ -219,7 +219,7 @@ export default function AboutPage() {
               href="/contact"
               className="inline-flex w-fit rounded-full border border-[var(--foreground)] px-6 py-3 text-sm font-medium transition-all duration-200 hover:-translate-y-1 hover:bg-[var(--card)] hover:shadow-sm"
             >
-              Get in touch ↗
+              Get in touch 
             </Link>
           </div>
         </div>
