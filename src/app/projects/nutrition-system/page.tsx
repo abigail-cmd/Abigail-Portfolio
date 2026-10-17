@@ -444,7 +444,7 @@ export default function NutritionSystemPage() {
                 rel="noopener noreferrer"
                 className="rounded-full bg-white px-4.5 py-2 text-sm font-medium !text-[var(--primary)] transition-transform hover:-translate-y-0.5"
               >
-                GitHub ↗
+                GitHub 
               </a>
               <a
                 href="https://main-nutrient-deficiency-detector.onrender.com/"
@@ -452,7 +452,7 @@ export default function NutritionSystemPage() {
                 rel="noopener noreferrer"
                 className="rounded-full border border-white/30 px-4.5 py-2 text-sm font-medium text-white transition-colors hover:bg-white/10"
               >
-                Live demo ↗
+                Live demo 
               </a>
             </div>
           </div>
