@@ -45,7 +45,7 @@ export default function ContactPage() {
                   </p>
 
                   <p className="mt-1.5 text-sm">
-                    your-email@example.com
+                    abigailelaho@gmail.com
                   </p>
                 </div>
 
@@ -60,7 +60,7 @@ export default function ContactPage() {
                     rel="noopener noreferrer"
                     className="mt-1.5 inline-flex text-sm transition-colors hover:text-[var(--primary)]"
                   >
-                    LinkedIn ↗
+                    LinkedIn 
                   </a>
                 </div>
 
@@ -75,7 +75,7 @@ export default function ContactPage() {
                     rel="noopener noreferrer"
                     className="mt-1.5 inline-flex text-sm transition-colors hover:text-[var(--primary)]"
                   >
-                    github.com/abigail-cmd ↗
+                    github.com/abigail-cmd 
                   </a>
                 </div>
 
