@@ -1,4 +1,3 @@
-
 "use client";
 
 import Link from "next/link";
@@ -39,7 +38,7 @@ export default function ContactPage() {
 
       if (!response.ok) {
         throw new Error(
-          result.error || "Your message couldn't be sent. Please try again."
+          result.error || "Your message couldn't be sent. Please try again.",
         );
       }
 
@@ -76,8 +75,8 @@ export default function ContactPage() {
               </h1>
 
               <p className="mt-5 max-w-xl text-sm leading-6 text-[var(--muted)] md:text-base">
-                Have an opportunity, project idea, question, or just want to
-                say hello? I&apos;d love to hear from you.
+                Have an opportunity, project idea, question, or just want to say
+                hello? I&apos;d love to hear from you.
               </p>
             </div>
 
@@ -113,7 +112,7 @@ export default function ContactPage() {
                     LinkedIn
                   </p>
                   <a
-                    href="https://www.linkedin.com/"
+                    href="www.linkedin.com/in/abigail-elaho-0595492ab"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-1.5 inline-flex text-sm transition-colors hover:text-[var(--primary)]"
