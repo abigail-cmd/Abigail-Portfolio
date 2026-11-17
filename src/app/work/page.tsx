@@ -110,6 +110,8 @@ export default function WorkPage() {
             </div>
           </article>
 
+
+
           {/* Coming soon */}
           <article className="border-t border-[var(--border)] py-10 md:py-14">
             <div className="grid gap-8 md:grid-cols-[80px_1fr_1fr] md:gap-8">
