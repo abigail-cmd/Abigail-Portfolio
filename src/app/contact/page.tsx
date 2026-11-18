@@ -112,7 +112,7 @@ export default function ContactPage() {
                     LinkedIn
                   </p>
                   <a
-                    href="www.linkedin.com/in/abigail-elaho-0595492ab"
+                    href="https://www.linkedin.com/in/abigail-elaho-0595492ab"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-1.5 inline-flex text-sm transition-colors hover:text-[var(--primary)]"

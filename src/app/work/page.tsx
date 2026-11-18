@@ -110,12 +110,101 @@ export default function WorkPage() {
             </div>
           </article>
 
+
+
+{/* Project 02 */}
+<article className="border-t border-[var(--border)] py-10 md:py-14">
+  <div className="grid gap-10 md:grid-cols-[80px_1fr_1fr] md:gap-8">
+    {/* Number */}
+    <div>
+      <p className="text-xs font-medium tracking-[0.2em] text-[var(--muted)]">
+        02
+      </p>
+    </div>
+
+    {/* Project information */}
+    <div>
+      <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--muted)]">
+        Web application
+      </p>
+
+      <h2 className="mt-4 text-3xl font-semibold leading-tight tracking-[-0.025em] md:text-4xl">
+        HealthBook Hospital Appointment & Management System
+      </h2>
+
+      <p className="mt-5 max-w-xl text-sm leading-7 text-[var(--muted)] md:text-base">
+        A web-based hospital appointment and clinic management
+        portal that allows patients to find medical specialists,
+        request consultations, and track appointments while
+        administrators manage bookings and specialist information.
+      </p>
+
+      <div className="mt-7 flex flex-wrap gap-2">
+        <span className="rounded-full border border-[var(--border)] bg-[var(--card)] px-3 py-1.5 text-xs">
+          Python
+        </span>
+
+        <span className="rounded-full border border-[var(--border)] bg-[var(--card)] px-3 py-1.5 text-xs">
+          Flask
+        </span>
+
+        <span className="rounded-full border border-[var(--border)] bg-[var(--card)] px-3 py-1.5 text-xs">
+          SQLite
+        </span>
+
+        <span className="rounded-full border border-[var(--border)] bg-[var(--card)] px-3 py-1.5 text-xs">
+          Bootstrap
+        </span>
+      </div>
+
+      <Link
+        href="/projects/healthbook"
+        className="mt-8 inline-flex items-center rounded-full border border-[var(--foreground)] px-5 py-2.5 text-sm font-medium transition-all duration-200 hover:-translate-y-0.5 hover:bg-[var(--card)] hover:shadow-sm"
+      >
+        View case study
+      </Link>
+    </div>
+
+    {/* Project visual */}
+    <div className="min-h-[280px] overflow-hidden rounded-[1.5rem] border border-[var(--border)] bg-[var(--lavender)] p-6 md:min-h-[360px]">
+      <div className="flex h-full min-h-[230px] flex-col justify-between rounded-[1.1rem] border border-[var(--border)] bg-[var(--card)] p-6 shadow-sm">
+        <div className="flex items-center justify-between">
+          <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
+            HealthBook
+          </span>
+
+          <span className="h-2.5 w-2.5 rounded-full bg-[var(--accent)]" />
+        </div>
+
+        <div>
+          <p className="text-3xl font-semibold tracking-tight md:text-4xl">
+            Better access
+          </p>
+
+          <p className="text-3xl font-semibold tracking-tight text-[var(--primary)] md:text-4xl">
+            to healthcare.
+          </p>
+
+          <div className="mt-6 grid grid-cols-3 gap-2">
+            <div className="h-12 rounded-xl bg-[var(--lavender)]" />
+            <div className="h-12 rounded-xl border border-[var(--border)]" />
+            <div className="h-12 rounded-xl bg-[var(--background)]" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+
           {/* Coming soon */}
           <article className="border-t border-[var(--border)] py-10 md:py-14">
             <div className="grid gap-8 md:grid-cols-[80px_1fr_1fr] md:gap-8">
               <div>
                 <p className="text-xs font-medium tracking-[0.2em] text-[var(--muted)]">
-                  02
+                  03
                 </p>
               </div>
 

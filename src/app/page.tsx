@@ -106,9 +106,15 @@ export default function Home() {
               technologies="Node.js · Express · SQLite"
               href="/projects/nutrition-system"
             />
-
             <ProjectCard
               number="02"
+              title="HealthBook – Hospital Appointment & Management System"
+              description="A web-based hospital management platform that allows patients to book appointments with medical specialists and administrators to manage appointment requests."
+              technologies="Python · Flask · SQLite · Bootstrap"
+              href="/projects/healthbook"
+            />
+            <ProjectCard
+              number="03"
               title="More projects coming soon"
               description="More experiments, interfaces and projects will be added here as I continue building and exploring different areas of technology."
               technologies="React · Next.js · Web"
@@ -132,8 +138,8 @@ export default function Home() {
             {/* Main content */}
             <div>
               <h2 className="max-w-4xl text-4xl font-semibold leading-tight tracking-[-0.035em] md:text-5xl">
-                I&apos;m a developer who enjoys turning ideas into things
-                people can actually use.
+                I&apos;m a developer who enjoys turning ideas into things people
+                can actually use.
               </h2>
 
               <p className="mt-5 max-w-2xl text-base leading-7 text-[var(--muted)] md:text-lg">
@@ -236,10 +242,10 @@ export default function Home() {
 
               <p className="mt-5 max-w-2xl text-base leading-7 text-[var(--muted)] md:text-lg">
                 I&apos;m naturally drawn to clean design, creative ideas, and
-                things that feel well put together. I enjoy paying attention
-                to the little details, whether I&apos;m building something,
-                exploring a new idea, or figuring out how to make something
-                feel just right.
+                things that feel well put together. I enjoy paying attention to
+                the little details, whether I&apos;m building something,
+                exploring a new idea, or figuring out how to make something feel
+                just right.
               </p>
 
               <div className="mt-8 grid gap-4 sm:grid-cols-3">
@@ -271,8 +277,8 @@ export default function Home() {
                   </p>
 
                   <p className="mt-2 text-sm leading-6">
-                    I care about the small things that make a finished idea
-                    feel complete.
+                    I care about the small things that make a finished idea feel
+                    complete.
                   </p>
                 </div>
               </div>
@@ -302,8 +308,7 @@ export default function Home() {
 
               <p className="mt-5 max-w-xl text-base leading-7 text-[var(--muted)] md:text-lg">
                 I&apos;m always open to interesting conversations, creative
-                collaborations, and opportunities to keep learning and
-                building.
+                collaborations, and opportunities to keep learning and building.
               </p>
 
               <Link
@@ -311,9 +316,7 @@ export default function Home() {
                 className="group mt-7 inline-flex items-center gap-3 rounded-full border border-[var(--foreground)] bg-[var(--card)] px-6 py-3 text-sm font-medium transition-all duration-200 hover:-translate-y-1 hover:shadow-md"
               >
                 Get in touch
-                <span className="transition-transform duration-200 group-hover:translate-x-1">
-                  
-                </span>
+                <span className="transition-transform duration-200 group-hover:translate-x-1"></span>
               </Link>
             </div>
           </div>
